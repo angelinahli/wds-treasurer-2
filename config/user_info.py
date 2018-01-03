@@ -1,19 +1,19 @@
 """
 FILENAME: sensitive_info.py
 DESC: File containing non-sensitive data needed for my program.
-      Imports some data from sensitive_info:
-      - get_student_address(unit_box): returns string with address
-      
-      - SOFC_FUND_NUM
-      - PROFITS_FUND_NUM
-      
-      - FORM_URL: Url for form that needs to be filled in for each reimbursement
-      - RMBS_URL: Url for sheet containing all reimbursement details
-      - USERS_URL: Url for sheet containing all user information
-      - OVERALL_URL: Url for sheet containing overall information about club finances
-      
-      - EMAIL_LOGIN: Login information for email used to send the user form info
-      - EMAIL_PASSWORD: Password for email used to send the user form info
+    Imports some data from sensitive_info:
+    - get_student_address(unit_box): returns string with address
+    
+    - SOFC_FUND_NUM
+    - PROFITS_FUND_NUM
+    
+    - FORM_URL: Url for form that needs to be filled in for each reimbursement
+    - RMBS_URL: Url for sheet containing all reimbursement details
+    - USERS_URL: Url for sheet containing all user information
+    - OVERALL_URL: Url for sheet containing overall information about club finances
+    
+    - EMAIL_LOGIN: Login information for email used to send the user form info
+    - EMAIL_PASSWORD: Password for email used to send the user form info
 AUTHOR: Angelina Li
 DATE: 01/03/18
 """
