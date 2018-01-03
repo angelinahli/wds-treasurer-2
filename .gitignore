@@ -1,0 +1,13 @@
+*.pyc
+~$*.xlsx
+
+config/client_secret.json
+config/sensitive_info.py
+config/user_info_old.py
+
+email_forms.py
+form_template.py
+new_forms.py
+run.py
+worksheets.py
+form_template.txt
