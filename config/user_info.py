@@ -46,7 +46,8 @@ user_sheet = {
         "unit_box": 1,
         "name": 2,
         "banner_id": 3,
-        "username": 4
+        "year": 4,
+        "username": 5
     }
 }
 

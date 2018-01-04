@@ -21,7 +21,7 @@ Output:
 #### (1) Basic data structures
 
 **Reimbursement**
-* Represents one reimbursement.
+* Represents one reimbursement that has not yet been processed.
 * Instance attributes:
     * Username (key)
     * Date of reimbursement
@@ -31,9 +31,9 @@ Output:
     * Number of individuals this reimbursement is paying for
     * Whether this reimbursement has a receipt
     * Whether this reimbursement has been completed
+    * Account this reimbursement will be paid through
     * (Optional) Usernames of all individuals this reimbursement is paying for
     * (Optional) Link/s to the receipt/s associated with this reimbursement, if any
-    * (Optional) Account this reimbursement will be paid through
     * (Optional) Any notes associated with this reimbursement
     * (Optional) If the reimbursement has been processed, the name of the person who processed this
 
@@ -43,6 +43,7 @@ Output:
     * Username ('key')
     * Unit box number
     * Address
+    * Year
     * Student ID
 
 #### (2) Google sheets

@@ -7,10 +7,5 @@ config/client_secret.json
 config/sensitive_info.py
 
 # stuff I'm not ready to commit yet
-config/user_info_old.py
-email_forms.py
-form_template.py
-new_forms.py
-run.py
-worksheets.py
+old/*
 form_template.txt
