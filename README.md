@@ -38,7 +38,7 @@ Output:
     * (Optional) If the reimbursement has been processed, the name of the person who processed this
 
 **User**
-* Represents one member of our club (who could potentially have filed a reimbursement).
+* Represents one member of our club (who could potentially have filed for a reimbursement).
 * Instance attributes:
     * Username ('key')
     * Unit box number

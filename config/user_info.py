@@ -17,14 +17,18 @@ DESC: File containing non-sensitive data needed for my program.
 AUTHOR: Angelina Li
 DATE: 01/03/18
 """
+import os
 
 from sensitive_info import *
+
+ORG_NAME = "Wellesley Debate Society"
+
+USERS_DATA = os.path.join("data", "users.json")
 
 reimbursement_sheet = {
     "url": RMBS_URL,
     "start_row": 3,
     "cols": {
-        "timestamp": 1,
         "username": 3,
         "date": 4,
         "event_name": 5,
@@ -39,7 +43,7 @@ reimbursement_sheet = {
     }
 }
 
-user_sheet = {
+users_sheet = {
     "url": USERS_URL,
     "start_row": 2,
     "cols": {
@@ -62,4 +66,4 @@ def get_account(rmb_purpose):
     for account_name, purposes in ACCOUNT_PURPOSES.items():
         if rmb_purpose in purposes:
             return account_name
-    return "N/A"
+    return None
