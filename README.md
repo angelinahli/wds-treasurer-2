@@ -18,8 +18,6 @@ Output:
 
 ### Objects
 
-#### (1) Basic data structures
-
 **Reimbursement**
 * Represents one reimbursement that has not yet been processed.
 * Instance attributes:
@@ -46,21 +44,8 @@ Output:
     * Year
     * Student ID
 
-#### (2) Google sheets
-
 **Sheet**
 * Represents one google sheet of ordered data (where the sheet is filled with data from the first row of data down).
 
-**RSheet**
-* Represents one google sheet full of reimbursement data.
-
-**USheet**
-* Represents one google sheet full of user data. (Only used occasionally to update a database of users)
-
-#### (3) Databases
-
-**Database**
-
-#### (4) 
-
 ## To do
+* Finish grabbing reimbursement data and making forms
